@@ -19,10 +19,11 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ![](./screenshot.png)
 
-## My process
 ### Links
 
 - Live Site: [View](https://frances-m.github.io/order-summary-component/)
+
+## My process
 
 ### Built with
 
