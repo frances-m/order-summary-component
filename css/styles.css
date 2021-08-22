@@ -1,9 +1,9 @@
 /* Univeral styles */
 body {
   background-image: url('../images/pattern-background-mobile.svg');
-  background-position: left top;
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 50vh;
   background-color: hsl(225, 100%, 94%);
 }
 
@@ -165,6 +165,7 @@ body {
 .cancel:active {
   color: hsl(223, 47%, 23%);
 }
+
 /* Desktop media query */
 
 @media screen and (min-width: 1014px) {
@@ -183,4 +184,45 @@ body {
   .payment-button-container {
     width: 80%;
   }
+}
+
+/* Fixes styling for laptops with smaller viewport height */
+
+@media screen and (max-height: 700px) and (min-width: 1300px) {
+  .card-main {
+    width: 25%;
+  }
+
+  .card-title {
+    font-size: 24px;
+    margin-top: 8px;
+    padding: 15px;
+  }
+
+  /* Summary styles */
+  .summary {
+    height: 80px;
+  }
+
+  .icon-music {
+    width: 40px;
+    height: 40px;
+  }
+
+  .plan-details {
+    height: 54%;
+  }
+
+  .plan-type {
+    font-size: 14px;
+  }
+
+  .cost {
+    font-size: 12px;
+  }
+
+  .change-link {
+    font-size: 14px;
+  }
+
 }
