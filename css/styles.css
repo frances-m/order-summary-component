@@ -115,6 +115,11 @@ body {
   padding-right: 6%;
 }
 
+.change-link:active {
+  text-decoration: none;
+  opacity: 0.6;
+}
+
 /* Payment button styles */
 .payment-button-container {
   margin: 0 auto;
@@ -128,6 +133,10 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   box-shadow: 4px 15px 14px hsla(245, 75%, 52%, 0.2);
+}
+
+.payment-button-container:active {
+  opacity: 0.6;
 }
 
 .payment-button {
@@ -153,6 +162,9 @@ body {
   font-size: 14px;
 }
 
+.cancel:active {
+  color: hsl(223, 47%, 23%);
+}
 /* Desktop media query */
 
 @media screen and (min-width: 1014px) {
