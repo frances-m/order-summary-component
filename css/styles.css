@@ -188,9 +188,9 @@ body {
 
 /* Fixes styling for laptops with smaller viewport height */
 
-@media screen and (max-height: 700px) and (min-width: 1300px) {
+@media screen and (max-height: 700px) and (min-width: 1280px) {
   .card-main {
-    width: 25%;
+    width: 30%;
   }
 
   .card-title {
@@ -223,6 +223,10 @@ body {
 
   .change-link {
     font-size: 14px;
+  }
+
+  .cancel-container {
+    margin-bottom: 5px;
   }
 
 }
